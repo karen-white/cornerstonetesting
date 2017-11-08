@@ -13,7 +13,7 @@
 // -----------------------------------------------------------------------------
 
 .header {
-    background-color: $header-bg;
+    background-color: #e34500;
     border-bottom: container("border");
     position: fixed;
     top: 0;
@@ -35,6 +35,18 @@
     }
 }
 
+#headercontainer {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    }
+
+#menu {
+    float: right;
+    margin-right: 25px;
+    }
+
 .header-logo {
     font-size: 0;   // 1
     margin: 0 remCalc($header-toggle-width); // 2
@@ -53,9 +65,10 @@
             background-color: color("greys", "lightest");
             margin: 0;
             padding: spacing("quarter") 0;
-            position: absolute;
+            position: relative;
             top: 0;
             width: 100%;
+
         }
     }
 
@@ -89,6 +102,8 @@
 
 .header-logo--left {
     text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
     @include breakpoint("medium") {
         margin-left: remCalc(40px);

@@ -1,0 +1,820 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/karen.white/.nvm/versions/node/v4.4.0/bin/node',
+1 verbose cli   '/Users/karen.white/.nvm/versions/node/v4.4.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'bootstrap@4.0.0-beta' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose install initial load of /Users/karen.white/themes/cornerstone/package.json
+5 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/async/package.json
+6 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/babel-core/package.json
+7 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/babel-eslint/package.json
+8 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/babel-loader/package.json
+9 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/babel-plugin-dynamic-import-webpack/package.json
+10 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/babel-plugin-lodash/package.json
+11 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/babel-plugin-syntax-dynamic-import/package.json
+12 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/babel-plugin-transform-regenerator/package.json
+13 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/babel-plugin-transform-runtime/package.json
+14 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/babel-polyfill/package.json
+15 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/babel-preset-env/package.json
+16 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/babel-preset-es2015/package.json
+17 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/babel-preset-es2017/package.json
+18 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/clean-webpack-plugin/package.json
+19 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/core-js/package.json
+20 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/es6-shim/package.json
+21 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/eslint/package.json
+22 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/eslint-config-airbnb/package.json
+23 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/eslint-plugin-react/package.json
+24 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/fastclick/package.json
+25 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/foundation-sites/package.json
+26 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/grunt/package.json
+27 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/grunt-eslint/package.json
+28 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/grunt-karma/package.json
+29 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/grunt-scss-lint/package.json
+30 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/grunt-svgstore/package.json
+31 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/html5-history-api/package.json
+32 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/jasmine-core/package.json
+33 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/jquery/package.json
+34 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/jquery-zoom/package.json
+35 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/jstree/package.json
+36 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/karma/package.json
+37 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/karma-babel-preprocessor/package.json
+38 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/karma-coverage/package.json
+39 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/karma-es6-shim/package.json
+40 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/karma-jasmine/package.json
+41 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/karma-phantomjs-launcher/package.json
+42 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/karma-sourcemap-loader/package.json
+43 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/karma-verbose-reporter/package.json
+44 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/karma-webpack/package.json
+45 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/lazysizes/package.json
+46 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/load-grunt-config/package.json
+47 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/lodash/package.json
+48 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/lodash-webpack-plugin/package.json
+49 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/nod-validate/package.json
+50 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/pace/package.json
+51 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/phantomjs-prebuilt/package.json
+52 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/regenerator-runtime/package.json
+53 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/slick-carousel/package.json
+54 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/sweetalert2/package.json
+55 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/time-grunt/package.json
+56 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/uglify-js/package.json
+57 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/webpack/package.json
+58 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/@bigcommerce/citadel/package.json
+59 verbose installManyTop reading scoped package data from /Users/karen.white/themes/cornerstone/node_modules/@bigcommerce/stencil-utils/package.json
+60 info package.json karma-coverage@0.2.7 No README data
+61 info package.json foundation-sites@5.5.3 No license field.
+62 info package.json grunt@0.4.5 No license field.
+63 info package.json fastclick@1.0.6 No license field.
+64 info package.json html5-history-api@4.2.8 No license field.
+65 info package.json grunt-svgstore@0.5.0 No license field.
+66 info package.json grunt-scss-lint@0.3.8 No license field.
+67 info package.json lazysizes@3.0.0 No license field.
+68 verbose readDependencies loading dependencies from /Users/karen.white/themes/cornerstone/package.json
+69 silly cache add args [ 'bootstrap@4.0.0-beta', null ]
+70 verbose cache add spec bootstrap@4.0.0-beta
+71 silly cache add parsed spec Result {
+71 silly cache add   raw: 'bootstrap@4.0.0-beta',
+71 silly cache add   scope: null,
+71 silly cache add   name: 'bootstrap',
+71 silly cache add   rawSpec: '4.0.0-beta',
+71 silly cache add   spec: '4.0.0-beta',
+71 silly cache add   type: 'version' }
+72 silly addNamed bootstrap@4.0.0-beta
+73 verbose addNamed "4.0.0-beta" is a plain semver version for bootstrap
+74 silly mapToRegistry name bootstrap
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+78 verbose addNameVersion registry:https://registry.npmjs.org/bootstrap not in flight; fetching
+79 verbose request uri https://registry.npmjs.org/bootstrap
+80 verbose request no auth needed
+81 info attempt registry request try #1 at 10:01:49 AM
+82 verbose request id 3305288126db85b4
+83 http request GET https://registry.npmjs.org/bootstrap
+84 http 200 https://registry.npmjs.org/bootstrap
+85 verbose headers { server: 'nginx/1.10.1',
+85 verbose headers   'content-type': 'application/json',
+85 verbose headers   'last-modified': 'Wed, 04 Oct 2017 03:15:44 GMT',
+85 verbose headers   etag: 'W/"59d45260-e3ae"',
+85 verbose headers   'content-encoding': 'gzip',
+85 verbose headers   'cache-control': 'max-age=300',
+85 verbose headers   'content-length': '11594',
+85 verbose headers   'accept-ranges': 'bytes',
+85 verbose headers   date: 'Wed, 04 Oct 2017 15:01:50 GMT',
+85 verbose headers   via: '1.1 varnish',
+85 verbose headers   age: '72',
+85 verbose headers   connection: 'keep-alive',
+85 verbose headers   'x-served-by': 'cache-dfw18634-DFW',
+85 verbose headers   'x-cache': 'HIT',
+85 verbose headers   'x-cache-hits': '2',
+85 verbose headers   'x-timer': 'S1507129311.732079,VS0,VE0',
+85 verbose headers   vary: 'Accept-Encoding, Accept' }
+86 silly get cb [ 200,
+86 silly get   { server: 'nginx/1.10.1',
+86 silly get     'content-type': 'application/json',
+86 silly get     'last-modified': 'Wed, 04 Oct 2017 03:15:44 GMT',
+86 silly get     etag: 'W/"59d45260-e3ae"',
+86 silly get     'content-encoding': 'gzip',
+86 silly get     'cache-control': 'max-age=300',
+86 silly get     'content-length': '11594',
+86 silly get     'accept-ranges': 'bytes',
+86 silly get     date: 'Wed, 04 Oct 2017 15:01:50 GMT',
+86 silly get     via: '1.1 varnish',
+86 silly get     age: '72',
+86 silly get     connection: 'keep-alive',
+86 silly get     'x-served-by': 'cache-dfw18634-DFW',
+86 silly get     'x-cache': 'HIT',
+86 silly get     'x-cache-hits': '2',
+86 silly get     'x-timer': 'S1507129311.732079,VS0,VE0',
+86 silly get     vary: 'Accept-Encoding, Accept' } ]
+87 verbose get saving bootstrap to /Users/karen.white/.npm/registry.npmjs.org/bootstrap/.cache.json
+88 verbose correctMkdir /Users/karen.white/.npm correctMkdir not in flight; initializing
+89 silly mapToRegistry name bootstrap
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+93 verbose addRemoteTarball https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz not in flight; adding
+94 verbose addRemoteTarball [ 'https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz',
+94 verbose addRemoteTarball   'dc5928175d2e71310bc668cf9e05a907211b72a6' ]
+95 info retry fetch attempt 1 at 10:01:50 AM
+96 info attempt registry request try #1 at 10:01:50 AM
+97 http fetch GET https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz
+98 http fetch 200 https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz
+99 silly fetchAndShaCheck shasum dc5928175d2e71310bc668cf9e05a907211b72a6
+100 verbose addTmpTarball /var/folders/b3/hmkw5gzj09b6rx4z00k4l78scf2kbh/T/npm-1887-d3f28e2b/registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz not in flight; adding
+101 verbose addTmpTarball already have metadata; skipping unpack for bootstrap@4.0.0-beta
+102 verbose correctMkdir /Users/karen.white/.npm correctMkdir not in flight; initializing
+103 silly cache afterAdd bootstrap@4.0.0-beta
+104 verbose afterAdd /Users/karen.white/.npm/bootstrap/4.0.0-beta/package/package.json not in flight; writing
+105 verbose correctMkdir /Users/karen.white/.npm correctMkdir not in flight; initializing
+106 verbose afterAdd /Users/karen.white/.npm/bootstrap/4.0.0-beta/package/package.json written
+107 silly install resolved [ { name: 'bootstrap',
+107 silly install resolved     description: 'The most popular front-end framework for developing responsive, mobile first projects on the web.',
+107 silly install resolved     version: '4.0.0-beta',
+107 silly install resolved     keywords:
+107 silly install resolved      [ 'css',
+107 silly install resolved        'sass',
+107 silly install resolved        'mobile-first',
+107 silly install resolved        'responsive',
+107 silly install resolved        'front-end',
+107 silly install resolved        'framework',
+107 silly install resolved        'web' ],
+107 silly install resolved     homepage: 'https://getbootstrap.com',
+107 silly install resolved     author:
+107 silly install resolved      { name: 'The Bootstrap Authors',
+107 silly install resolved        url: 'https://github.com/twbs/bootstrap/graphs/contributors' },
+107 silly install resolved     contributors: [ [Object] ],
+107 silly install resolved     scripts:
+107 silly install resolved      { bash: 'bash',
+107 silly install resolved        css: 'npm-run-all css-lint css-compile css-prefix css-minify',
+107 silly install resolved        'css-docs': 'npm-run-all css-lint-docs css-compile-docs css-prefix-docs css-minify-docs',
+107 silly install resolved        'css-lint': 'bundle exec scss-lint --config .scss-lint.yml scss/*.scss',
+107 silly install resolved        'css-lint-docs': 'bundle exec scss-lint --config .scss-lint.yml --exclude assets/scss/docs.scss assets/scss/*.scss',
+107 silly install resolved        'css-compile': 'node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/bootstrap.scss dist/css/bootstrap.css && node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/bootstrap-grid.scss dist/css/bootstrap-grid.css && node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/bootstrap-reboot.scss dist/css/bootstrap-reboot.css',
+107 silly install resolved        'css-compile-docs': 'node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 assets/scss/docs.scss assets/css/docs.min.css',
+107 silly install resolved        'css-prefix': 'postcss --config build/postcss.config.js --replace dist/css/*.css',
+107 silly install resolved        'css-prefix-docs': 'postcss --config build/postcss.config.js --no-map --replace assets/css/docs.min.css',
+107 silly install resolved        'css-minify': 'cleancss --level 1 --source-map --source-map-inline-sources --output dist/css/bootstrap.min.css dist/css/bootstrap.css && cleancss --level 1 --source-map --source-map-inline-sources --output dist/css/bootstrap-grid.min.css dist/css/bootstrap-grid.css && cleancss --level 1 --source-map --source-map-inline-sources --output dist/css/bootstrap-reboot.min.css dist/css/bootstrap-reboot.css',
+107 silly install resolved        'css-minify-docs': 'cleancss --level 1 --source-map --source-map-inline-sources --output assets/css/docs.min.css assets/css/docs.min.css',
+107 silly install resolved        js: 'npm-run-all js-lint js-compile js-minify',
+107 silly install resolved        'js-docs': 'npm-run-all js-lint-docs js-minify-docs',
+107 silly install resolved        'js-lint': 'eslint js/ && eslint --config js/tests/.eslintrc.json --env node build/ Gruntfile.js',
+107 silly install resolved        'js-lint-docs': 'eslint --config js/tests/.eslintrc.json assets/js/',
+107 silly install resolved        'js-compile': 'npm-run-all --parallel js-compile-*',
+107 silly install resolved        'js-compile-bundle': 'shx cat js/src/util.js js/src/alert.js js/src/button.js js/src/carousel.js js/src/collapse.js js/src/dropdown.js js/src/modal.js js/src/scrollspy.js js/src/tab.js js/src/tooltip.js js/src/popover.js | shx sed "s/^(import|export).*//" | babel --filename js/src/bootstrap.js | node build/stamp.js > dist/js/bootstrap.js',
+107 silly install resolved        'js-compile-plugins': 'babel js/src/ --out-dir js/dist/ --source-maps',
+107 silly install resolved        'js-minify': 'uglifyjs --config-file build/uglifyjs.config.json --output dist/js/bootstrap.min.js dist/js/bootstrap.js',
+107 silly install resolved        'js-minify-docs': 'uglifyjs --config-file build/uglifyjs.config.json --output assets/js/docs.min.js assets/js/vendor/anchor.min.js assets/js/vendor/clipboard.min.js assets/js/vendor/holder.min.js assets/js/src/application.js',
+107 silly install resolved        'js-test': 'phantomjs ./node_modules/qunit-phantomjs-runner/runner.js js/tests/index.html 60',
+107 silly install resolved        'js-test-cloud': 'ruby -r webrick -e "s = WEBrick::HTTPServer.new(:Port => 3000, :DocumentRoot => Dir.pwd, :Logger => WEBrick::Log.new(\'/dev/null\'), :AccessLog => []); trap(\'INT\') { s.shutdown }; s.start" & grunt saucelabs-qunit',
+107 silly install resolved        docs: 'npm-run-all docs-compile docs-lint',
+107 silly install resolved        'docs-lint': 'htmllint --rc build/.htmllintrc _gh_pages/*.html _gh_pages/**/*.html js/tests/visual/*.html',
+107 silly install resolved        'docs-compile': 'bundle exec jekyll build',
+107 silly install resolved        'docs-serve': 'bundle exec jekyll serve',
+107 silly install resolved        'docs-github': 'shx echo \'github: true\' > $npm_config_tmp/twbsconfig.yml && npm run docs-compile -- --config _config.yml,$npm_config_tmp/twbsconfig.yml && shx rm $npm_config_tmp/twbsconfig.yml',
+107 silly install resolved        'docs-upload-preview': 'build/upload-preview.sh',
+107 silly install resolved        'maintenance-dependencies': 'ncu -a -x jquery && npm update && bundle update && shx echo \'Manually update assets/js/vendor/*, js/tests/vendor/*, bower.json and .travis.yml\'',
+107 silly install resolved        'release-version': 'node build/change-version.js',
+107 silly install resolved        'release-zip': 'cd dist/ && zip -r9 bootstrap-$npm_package_version-dist.zip * && shx mv bootstrap-$npm_package_version-dist.zip ..',
+107 silly install resolved        dist: 'npm-run-all --parallel css js css-docs',
+107 silly install resolved        test: 'npm-run-all dist js-test docs',
+107 silly install resolved        'watch-css': 'nodemon --ignore js/ --ignore dist/ -e scss -x "npm run css && npm run css-docs"',
+107 silly install resolved        'watch-js': 'nodemon --ignore scss/ --ignore js/dist/ --ignore dist/ -e js -x "npm run js-compile-plugins"',
+107 silly install resolved        watch: 'npm-run-all --parallel watch-css watch-js' },
+107 silly install resolved     style: 'dist/css/bootstrap.css',
+107 silly install resolved     sass: 'scss/bootstrap.scss',
+107 silly install resolved     main: 'dist/js/bootstrap',
+107 silly install resolved     repository:
+107 silly install resolved      { type: 'git',
+107 silly install resolved        url: 'git+https://github.com/twbs/bootstrap.git' },
+107 silly install resolved     bugs: { url: 'https://github.com/twbs/bootstrap/issues' },
+107 silly install resolved     license: 'MIT',
+107 silly install resolved     dependencies: {},
+107 silly install resolved     peerDependencies: { jquery: '>=3.0.0', 'popper.js': '^1.11.0' },
+107 silly install resolved     devDependencies:
+107 silly install resolved      { autoprefixer: '^7.1.2',
+107 silly install resolved        'babel-cli': '^6.24.1',
+107 silly install resolved        'babel-eslint': '^7.2.3',
+107 silly install resolved        'babel-plugin-transform-es2015-modules-strip': '^0.1.1',
+107 silly install resolved        'babel-preset-es2015': '^6.24.1',
+107 silly install resolved        'clean-css-cli': '^4.1.6',
+107 silly install resolved        eslint: '^4.2.0',
+107 silly install resolved        grunt: '^1.0.1',
+107 silly install resolved        'grunt-cli': '^1.2.0',
+107 silly install resolved        'grunt-saucelabs': '^9.0.0',
+107 silly install resolved        'htmllint-cli': '^0.0.6',
+107 silly install resolved        'node-sass': '^4.5.3',
+107 silly install resolved        nodemon: '^1.11.0',
+107 silly install resolved        'npm-run-all': '^4.0.2',
+107 silly install resolved        'phantomjs-prebuilt': '^2.1.14',
+107 silly install resolved        'postcss-cli': '^4.1.0',
+107 silly install resolved        'qunit-phantomjs-runner': '^2.3.0',
+107 silly install resolved        qunitjs: '^2.4.0',
+107 silly install resolved        shelljs: '^0.7.8',
+107 silly install resolved        shx: '^0.2.2',
+107 silly install resolved        'uglify-js': '^3.0.24' },
+107 silly install resolved     engines: { node: '>=4' },
+107 silly install resolved     files:
+107 silly install resolved      [ '.babelrc',
+107 silly install resolved        '.eslintignore',
+107 silly install resolved        'Gruntfile.js',
+107 silly install resolved        'dist',
+107 silly install resolved        'build',
+107 silly install resolved        'js/.eslintrc.json',
+107 silly install resolved        'js/**/*.js',
+107 silly install resolved        '.scss-lint.yml',
+107 silly install resolved        'scss/**/*.scss',
+107 silly install resolved        'LICENSE' ],
+107 silly install resolved     jspm:
+107 silly install resolved      { main: 'js/bootstrap',
+107 silly install resolved        directories: [Object],
+107 silly install resolved        shim: [Object],
+107 silly install resolved        dependencies: [Object] },
+107 silly install resolved     gitHead: 'a0521efbb59aefeb447a0ef6927aadf1999fee07',
+107 silly install resolved     _id: 'bootstrap@4.0.0-beta',
+107 silly install resolved     _npmVersion: '5.0.3',
+107 silly install resolved     _nodeVersion: '8.1.4',
+107 silly install resolved     _npmUser: { name: 'twbs', email: 'getbootstrap@gmail.com' },
+107 silly install resolved     dist:
+107 silly install resolved      { integrity: 'sha512-I/r3fYtUZr+rUNkh8HI+twxZ56p6ehNn27eA1XSebLVQKAJ2xZHnEvZrSR+UR2A/bONcd9gHC3xatVhQlH6R6w==',
+107 silly install resolved        shasum: 'dc5928175d2e71310bc668cf9e05a907211b72a6',
+107 silly install resolved        tarball: 'https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz' },
+107 silly install resolved     maintainers: [ [Object] ],
+107 silly install resolved     _npmOperationalInternal:
+107 silly install resolved      { host: 's3://npm-registry-packages',
+107 silly install resolved        tmp: 'tmp/bootstrap-4.0.0-beta.tgz_1502432421699_0.41758680320344865' },
+107 silly install resolved     directories: {},
+107 silly install resolved     _shasum: 'dc5928175d2e71310bc668cf9e05a907211b72a6',
+107 silly install resolved     _resolved: 'https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz',
+107 silly install resolved     _from: 'bootstrap@4.0.0-beta' } ]
+108 info install bootstrap@4.0.0-beta into /Users/karen.white/themes/cornerstone
+109 info installOne bootstrap@4.0.0-beta
+110 verbose installOne of bootstrap to /Users/karen.white/themes/cornerstone not in flight; installing
+111 verbose correctMkdir /Users/karen.white/.npm/_locks correctMkdir not in flight; initializing
+112 verbose lock using /Users/karen.white/.npm/_locks/bootstrap-892093a5e5c32421.lock for /Users/karen.white/themes/cornerstone/node_modules/bootstrap
+113 silly install write writing bootstrap 4.0.0-beta to /Users/karen.white/themes/cornerstone/node_modules/bootstrap
+114 verbose unbuild node_modules/bootstrap
+115 silly gentlyRm /Users/karen.white/themes/cornerstone/node_modules/bootstrap is being purged from base /Users/karen.white/themes/cornerstone
+116 verbose gentlyRm don't care about contents; nuking /Users/karen.white/themes/cornerstone/node_modules/bootstrap
+117 verbose tar unpack /Users/karen.white/.npm/bootstrap/4.0.0-beta/package.tgz
+118 verbose tar unpacking to /Users/karen.white/themes/cornerstone/node_modules/bootstrap
+119 silly gentlyRm /Users/karen.white/themes/cornerstone/node_modules/bootstrap is being purged
+120 verbose gentlyRm don't care about contents; nuking /Users/karen.white/themes/cornerstone/node_modules/bootstrap
+121 silly gunzTarPerm modes [ '755', '644' ]
+122 silly gunzTarPerm extractEntry package.json
+123 silly gunzTarPerm extractEntry README.md
+124 silly gunzTarPerm extractEntry LICENSE
+125 silly gunzTarPerm extractEntry Gruntfile.js
+126 silly gunzTarPerm extractEntry .scss-lint.yml
+127 silly gunzTarPerm extractEntry .eslintignore
+128 silly gunzTarPerm extractEntry build/change-version.js
+129 silly gunzTarPerm extractEntry build/postcss.config.js
+130 silly gunzTarPerm extractEntry build/stamp.js
+131 silly gunzTarPerm extractEntry build/.htmllintrc
+132 silly gunzTarPerm extractEntry build/gcp-key.json.enc
+133 silly gunzTarPerm extractEntry build/lint-vars.sh
+134 silly gunzTarPerm extractEntry build/sauce_browsers.yml
+135 silly gunzTarPerm extractEntry build/uglifyjs.config.json
+136 silly gunzTarPerm extractEntry build/upload-preview.sh
+137 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.min.css
+138 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.css
+139 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.min.css
+140 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.min.css.map
+141 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.css
+142 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.css.map
+143 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.css.map
+144 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.min.css.map
+145 silly gunzTarPerm extractEntry dist/css/bootstrap.css
+146 silly gunzTarPerm extractEntry dist/css/bootstrap.css.map
+147 silly gunzTarPerm extractEntry dist/css/bootstrap.min.css
+148 silly gunzTarPerm extractEntry dist/css/bootstrap.min.css.map
+149 silly gunzTarPerm extractEntry dist/js/bootstrap.js
+150 silly gunzTarPerm extractEntry dist/js/bootstrap.min.js
+151 silly gunzTarPerm extractEntry js/.eslintrc.json
+152 silly gunzTarPerm extractEntry js/dist/alert.js
+153 silly gunzTarPerm extractEntry js/dist/carousel.js
+154 silly gunzTarPerm extractEntry js/dist/collapse.js
+155 silly gunzTarPerm extractEntry js/dist/dropdown.js
+156 silly gunzTarPerm extractEntry js/dist/button.js
+157 silly gunzTarPerm extractEntry js/dist/popover.js
+158 silly gunzTarPerm extractEntry js/dist/scrollspy.js
+159 silly gunzTarPerm extractEntry js/dist/tab.js
+160 silly gunzTarPerm extractEntry js/dist/tooltip.js
+161 silly gunzTarPerm extractEntry js/dist/util.js
+162 silly gunzTarPerm extractEntry js/dist/modal.js
+163 silly gunzTarPerm extractEntry js/src/alert.js
+164 silly gunzTarPerm extractEntry js/src/carousel.js
+165 silly gunzTarPerm extractEntry js/src/collapse.js
+166 silly gunzTarPerm extractEntry js/src/dropdown.js
+167 silly gunzTarPerm extractEntry js/src/button.js
+168 silly gunzTarPerm extractEntry js/src/popover.js
+169 silly gunzTarPerm extractEntry js/src/scrollspy.js
+170 silly gunzTarPerm extractEntry js/src/tab.js
+171 silly gunzTarPerm extractEntry js/src/tooltip.js
+172 silly gunzTarPerm extractEntry js/src/util.js
+173 silly gunzTarPerm extractEntry js/src/modal.js
+174 silly gunzTarPerm extractEntry js/tests/README.md
+175 silly gunzTarPerm extractEntry js/tests/unit/alert.js
+176 silly gunzTarPerm extractEntry js/tests/unit/button.js
+177 silly gunzTarPerm extractEntry js/tests/unit/carousel.js
+178 silly gunzTarPerm extractEntry js/tests/unit/collapse.js
+179 silly gunzTarPerm extractEntry js/tests/unit/dropdown.js
+180 silly gunzTarPerm extractEntry js/tests/unit/modal.js
+181 silly gunzTarPerm extractEntry js/tests/unit/popover.js
+182 silly gunzTarPerm extractEntry js/tests/unit/scrollspy.js
+183 silly gunzTarPerm extractEntry js/tests/unit/tab.js
+184 silly gunzTarPerm extractEntry js/tests/unit/tooltip.js
+185 silly gunzTarPerm extractEntry js/tests/vendor/qunit.js
+186 silly gunzTarPerm extractEntry .babelrc
+187 silly gunzTarPerm extractEntry scss/_mixins.scss
+188 silly gunzTarPerm extractEntry scss/_alert.scss
+189 silly gunzTarPerm extractEntry scss/_breadcrumb.scss
+190 silly gunzTarPerm extractEntry scss/_button-group.scss
+191 silly gunzTarPerm extractEntry scss/_buttons.scss
+192 silly gunzTarPerm extractEntry scss/_card.scss
+193 silly gunzTarPerm extractEntry scss/_carousel.scss
+194 silly gunzTarPerm extractEntry scss/_close.scss
+195 silly gunzTarPerm extractEntry scss/_code.scss
+196 silly gunzTarPerm extractEntry scss/_custom-forms.scss
+197 silly gunzTarPerm extractEntry scss/_dropdown.scss
+198 silly gunzTarPerm extractEntry scss/_forms.scss
+199 silly gunzTarPerm extractEntry scss/_functions.scss
+200 silly gunzTarPerm extractEntry scss/_grid.scss
+201 silly gunzTarPerm extractEntry scss/_images.scss
+202 silly gunzTarPerm extractEntry scss/_input-group.scss
+203 silly gunzTarPerm extractEntry scss/_jumbotron.scss
+204 silly gunzTarPerm extractEntry scss/_list-group.scss
+205 silly gunzTarPerm extractEntry scss/_media.scss
+206 silly gunzTarPerm extractEntry scss/_badge.scss
+207 silly gunzTarPerm extractEntry scss/_modal.scss
+208 silly gunzTarPerm extractEntry scss/_nav.scss
+209 silly gunzTarPerm extractEntry scss/_navbar.scss
+210 silly gunzTarPerm extractEntry scss/_pagination.scss
+211 silly gunzTarPerm extractEntry scss/_popover.scss
+212 silly gunzTarPerm extractEntry scss/_print.scss
+213 silly gunzTarPerm extractEntry scss/_progress.scss
+214 silly gunzTarPerm extractEntry scss/_reboot.scss
+215 silly gunzTarPerm extractEntry scss/_tables.scss
+216 silly gunzTarPerm extractEntry scss/_tooltip.scss
+217 silly gunzTarPerm extractEntry scss/_transitions.scss
+218 silly gunzTarPerm extractEntry scss/_type.scss
+219 silly gunzTarPerm extractEntry scss/_utilities.scss
+220 silly gunzTarPerm extractEntry scss/_variables.scss
+221 silly gunzTarPerm extractEntry scss/bootstrap-grid.scss
+222 silly gunzTarPerm extractEntry scss/bootstrap-reboot.scss
+223 silly gunzTarPerm extractEntry scss/bootstrap.scss
+224 silly gunzTarPerm extractEntry scss/mixins/_list-group.scss
+225 silly gunzTarPerm extractEntry scss/mixins/_alert.scss
+226 silly gunzTarPerm extractEntry scss/mixins/_badge.scss
+227 silly gunzTarPerm extractEntry scss/mixins/_border-radius.scss
+228 silly gunzTarPerm extractEntry scss/mixins/_box-shadow.scss
+229 silly gunzTarPerm extractEntry scss/mixins/_breakpoints.scss
+230 silly gunzTarPerm extractEntry scss/mixins/_buttons.scss
+231 silly gunzTarPerm extractEntry scss/mixins/_clearfix.scss
+232 silly gunzTarPerm extractEntry scss/mixins/_float.scss
+233 silly gunzTarPerm extractEntry scss/mixins/_forms.scss
+234 silly gunzTarPerm extractEntry scss/mixins/_gradients.scss
+235 silly gunzTarPerm extractEntry scss/mixins/_grid-framework.scss
+236 silly gunzTarPerm extractEntry scss/mixins/_grid.scss
+237 silly gunzTarPerm extractEntry scss/mixins/_hover.scss
+238 silly gunzTarPerm extractEntry scss/mixins/_image.scss
+239 silly gunzTarPerm extractEntry scss/mixins/_background-variant.scss
+240 silly gunzTarPerm extractEntry scss/mixins/_lists.scss
+241 silly gunzTarPerm extractEntry scss/mixins/_nav-divider.scss
+242 silly gunzTarPerm extractEntry scss/mixins/_navbar-align.scss
+243 silly gunzTarPerm extractEntry scss/mixins/_pagination.scss
+244 silly gunzTarPerm extractEntry scss/mixins/_reset-text.scss
+245 silly gunzTarPerm extractEntry scss/mixins/_resize.scss
+246 silly gunzTarPerm extractEntry scss/mixins/_screen-reader.scss
+247 silly gunzTarPerm extractEntry scss/mixins/_size.scss
+248 silly gunzTarPerm extractEntry scss/mixins/_table-row.scss
+249 silly gunzTarPerm extractEntry scss/mixins/_text-emphasis.scss
+250 silly gunzTarPerm extractEntry scss/mixins/_text-hide.scss
+251 silly gunzTarPerm extractEntry scss/mixins/_text-truncate.scss
+252 silly gunzTarPerm extractEntry scss/mixins/_transition.scss
+253 silly gunzTarPerm extractEntry scss/mixins/_visibility.scss
+254 silly gunzTarPerm extractEntry scss/utilities/_float.scss
+255 silly gunzTarPerm extractEntry scss/utilities/_align.scss
+256 silly gunzTarPerm extractEntry scss/utilities/_borders.scss
+257 silly gunzTarPerm extractEntry scss/utilities/_clearfix.scss
+258 silly gunzTarPerm extractEntry scss/utilities/_display.scss
+259 silly gunzTarPerm extractEntry scss/utilities/_embed.scss
+260 silly gunzTarPerm extractEntry scss/utilities/_flex.scss
+261 silly gunzTarPerm extractEntry scss/utilities/_background.scss
+262 silly gunzTarPerm extractEntry scss/utilities/_position.scss
+263 silly gunzTarPerm extractEntry scss/utilities/_screenreaders.scss
+264 silly gunzTarPerm extractEntry scss/utilities/_sizing.scss
+265 silly gunzTarPerm extractEntry scss/utilities/_spacing.scss
+266 silly gunzTarPerm extractEntry scss/utilities/_text.scss
+267 silly gunzTarPerm extractEntry scss/utilities/_visibility.scss
+268 verbose write writing to /Users/karen.white/themes/cornerstone/node_modules/bootstrap/package.json
+269 info preinstall bootstrap@4.0.0-beta
+270 verbose readDependencies loading dependencies from /Users/karen.white/themes/cornerstone/node_modules/bootstrap/package.json
+271 silly prepareForInstallMany adding jquery@>=3.0.0 from bootstrap peerDependencies
+272 silly prepareForInstallMany adding popper.js@^1.11.0 from bootstrap peerDependencies
+273 warn peerDependencies The peer dependency jquery@>=3.0.0 included from bootstrap will no
+274 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+275 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+276 warn peerDependencies The peer dependency popper.js@^1.11.0 included from bootstrap will no
+277 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+278 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+279 verbose readDependencies loading dependencies from /Users/karen.white/themes/cornerstone/node_modules/bootstrap/package.json
+280 silly install resolved []
+281 verbose about to build /Users/karen.white/themes/cornerstone/node_modules/bootstrap
+282 info build /Users/karen.white/themes/cornerstone/node_modules/bootstrap
+283 info linkStuff bootstrap@4.0.0-beta
+284 silly linkStuff bootstrap@4.0.0-beta has /Users/karen.white/themes/cornerstone/node_modules as its parent node_modules
+285 verbose linkBins bootstrap@4.0.0-beta
+286 verbose linkMans bootstrap@4.0.0-beta
+287 verbose rebuildBundles bootstrap@4.0.0-beta
+288 info install bootstrap@4.0.0-beta
+289 info postinstall bootstrap@4.0.0-beta
+290 verbose readDependencies loading dependencies from /Users/karen.white/themes/cornerstone/package.json
+291 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/async/package.json
+292 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/babel-core/package.json
+293 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/babel-eslint/package.json
+294 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/babel-loader/package.json
+295 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/babel-plugin-dynamic-import-webpack/package.json
+296 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/babel-plugin-lodash/package.json
+297 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/babel-plugin-syntax-dynamic-import/package.json
+298 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/babel-plugin-transform-regenerator/package.json
+299 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/babel-plugin-transform-runtime/package.json
+300 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/babel-polyfill/package.json
+301 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/babel-preset-env/package.json
+302 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/babel-preset-es2015/package.json
+303 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/babel-preset-es2017/package.json
+304 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/bootstrap/package.json
+305 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/clean-webpack-plugin/package.json
+306 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/core-js/package.json
+307 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/es6-shim/package.json
+308 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/eslint/package.json
+309 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/eslint-config-airbnb/package.json
+310 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/eslint-plugin-react/package.json
+311 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/fastclick/package.json
+312 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/foundation-sites/package.json
+313 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/grunt/package.json
+314 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/grunt-eslint/package.json
+315 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/grunt-karma/package.json
+316 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/grunt-scss-lint/package.json
+317 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/grunt-svgstore/package.json
+318 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/html5-history-api/package.json
+319 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/jasmine-core/package.json
+320 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/jquery/package.json
+321 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/jquery-zoom/package.json
+322 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/jstree/package.json
+323 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/karma/package.json
+324 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/karma-babel-preprocessor/package.json
+325 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/karma-coverage/package.json
+326 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/karma-es6-shim/package.json
+327 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/karma-jasmine/package.json
+328 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/karma-phantomjs-launcher/package.json
+329 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/karma-sourcemap-loader/package.json
+330 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/karma-verbose-reporter/package.json
+331 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/karma-webpack/package.json
+332 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/lazysizes/package.json
+333 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/load-grunt-config/package.json
+334 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/lodash/package.json
+335 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/lodash-webpack-plugin/package.json
+336 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/nod-validate/package.json
+337 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/pace/package.json
+338 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/phantomjs-prebuilt/package.json
+339 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/regenerator-runtime/package.json
+340 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/slick-carousel/package.json
+341 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/sweetalert2/package.json
+342 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/time-grunt/package.json
+343 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/uglify-js/package.json
+344 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/webpack/package.json
+345 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/@bigcommerce/citadel/package.json
+346 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/@bigcommerce/stencil-utils/package.json
+347 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/.bin/eslint/package.json
+348 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/.bin/karma/package.json
+349 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/.bin/phantomjs/package.json
+350 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/.bin/uglifyjs/package.json
+351 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/.bin/webpack/package.json
+352 verbose targetResolver reading package data from /Users/karen.white/themes/cornerstone/node_modules/.cache/babel-loader/package.json
+353 verbose already installed skipping jquery@>=3.0.0 /Users/karen.white/themes/cornerstone
+354 silly cache add args [ 'popper.js@^1.11.0', null ]
+355 verbose cache add spec popper.js@^1.11.0
+356 silly cache add parsed spec Result {
+356 silly cache add   raw: 'popper.js@^1.11.0',
+356 silly cache add   scope: null,
+356 silly cache add   name: 'popper.js',
+356 silly cache add   rawSpec: '^1.11.0',
+356 silly cache add   spec: '>=1.11.0 <2.0.0',
+356 silly cache add   type: 'range' }
+357 silly addNamed popper.js@>=1.11.0 <2.0.0
+358 verbose addNamed ">=1.11.0 <2.0.0" is a valid semver range for popper.js
+359 silly addNameRange { name: 'popper.js', range: '>=1.11.0 <2.0.0', hasData: false }
+360 silly mapToRegistry name popper.js
+361 silly mapToRegistry using default registry
+362 silly mapToRegistry registry https://registry.npmjs.org/
+363 silly mapToRegistry uri https://registry.npmjs.org/popper.js
+364 verbose addNameRange registry:https://registry.npmjs.org/popper.js not in flight; fetching
+365 verbose request uri https://registry.npmjs.org/popper.js
+366 verbose request no auth needed
+367 info attempt registry request try #1 at 10:01:53 AM
+368 http request GET https://registry.npmjs.org/popper.js
+369 http 200 https://registry.npmjs.org/popper.js
+370 verbose headers { server: 'nginx/1.10.1',
+370 verbose headers   'content-type': 'application/json',
+370 verbose headers   'last-modified': 'Wed, 27 Sep 2017 06:31:24 GMT',
+370 verbose headers   etag: 'W/"59cb45bc-3aaa6"',
+370 verbose headers   'content-encoding': 'gzip',
+370 verbose headers   'cache-control': 'max-age=300',
+370 verbose headers   'content-length': '16416',
+370 verbose headers   'accept-ranges': 'bytes',
+370 verbose headers   date: 'Wed, 04 Oct 2017 15:01:53 GMT',
+370 verbose headers   via: '1.1 varnish',
+370 verbose headers   age: '23',
+370 verbose headers   connection: 'keep-alive',
+370 verbose headers   'x-served-by': 'cache-dfw18643-DFW',
+370 verbose headers   'x-cache': 'HIT',
+370 verbose headers   'x-cache-hits': '1',
+370 verbose headers   'x-timer': 'S1507129313.258936,VS0,VE0',
+370 verbose headers   vary: 'Accept-Encoding, Accept' }
+371 silly get cb [ 200,
+371 silly get   { server: 'nginx/1.10.1',
+371 silly get     'content-type': 'application/json',
+371 silly get     'last-modified': 'Wed, 27 Sep 2017 06:31:24 GMT',
+371 silly get     etag: 'W/"59cb45bc-3aaa6"',
+371 silly get     'content-encoding': 'gzip',
+371 silly get     'cache-control': 'max-age=300',
+371 silly get     'content-length': '16416',
+371 silly get     'accept-ranges': 'bytes',
+371 silly get     date: 'Wed, 04 Oct 2017 15:01:53 GMT',
+371 silly get     via: '1.1 varnish',
+371 silly get     age: '23',
+371 silly get     connection: 'keep-alive',
+371 silly get     'x-served-by': 'cache-dfw18643-DFW',
+371 silly get     'x-cache': 'HIT',
+371 silly get     'x-cache-hits': '1',
+371 silly get     'x-timer': 'S1507129313.258936,VS0,VE0',
+371 silly get     vary: 'Accept-Encoding, Accept' } ]
+372 verbose get saving popper.js to /Users/karen.white/.npm/registry.npmjs.org/popper.js/.cache.json
+373 verbose correctMkdir /Users/karen.white/.npm correctMkdir not in flight; initializing
+374 silly addNameRange number 2 { name: 'popper.js', range: '>=1.11.0 <2.0.0', hasData: true }
+375 silly addNameRange versions [ 'popper.js',
+375 silly addNameRange   [ '0.2.0',
+375 silly addNameRange     '0.2.1',
+375 silly addNameRange     '0.2.2',
+375 silly addNameRange     '0.2.3',
+375 silly addNameRange     '0.2.4',
+375 silly addNameRange     '0.2.5',
+375 silly addNameRange     '0.2.6',
+375 silly addNameRange     '0.3.0',
+375 silly addNameRange     '0.3.1',
+375 silly addNameRange     '0.3.2',
+375 silly addNameRange     '0.3.3',
+375 silly addNameRange     '0.3.4',
+375 silly addNameRange     '0.3.5',
+375 silly addNameRange     '0.3.6',
+375 silly addNameRange     '0.3.7',
+375 silly addNameRange     '0.3.8',
+375 silly addNameRange     '0.4.0',
+375 silly addNameRange     '0.4.1',
+375 silly addNameRange     '0.4.2',
+375 silly addNameRange     '0.5.0',
+375 silly addNameRange     '0.5.1',
+375 silly addNameRange     '0.5.2',
+375 silly addNameRange     '0.5.3',
+375 silly addNameRange     '0.6.0',
+375 silly addNameRange     '1.0.0-alpha.1',
+375 silly addNameRange     '1.0.0-alpha.2',
+375 silly addNameRange     '0.6.1',
+375 silly addNameRange     '0.6.2',
+375 silly addNameRange     '0.6.3',
+375 silly addNameRange     '0.6.4',
+375 silly addNameRange     '1.0.0-alpha.3',
+375 silly addNameRange     '1.0.0-alpha.4',
+375 silly addNameRange     '1.0.0-alpha.5',
+375 silly addNameRange     '1.0.0-alpha.6',
+375 silly addNameRange     '1.0.0-alpha.7',
+375 silly addNameRange     '1.0.0-alpha.8',
+375 silly addNameRange     '1.0.0-beta.1',
+375 silly addNameRange     '1.0.0-beta.2',
+375 silly addNameRange     '1.0.0-beta.3',
+375 silly addNameRange     '1.0.0-beta.4',
+375 silly addNameRange     '1.0.0-beta.5',
+375 silly addNameRange     '1.0.0',
+375 silly addNameRange     '1.0.1',
+375 silly addNameRange     '1.0.2',
+375 silly addNameRange     '1.0.3',
+375 silly addNameRange     '1.0.4',
+375 silly addNameRange     '1.0.5',
+375 silly addNameRange     '1.0.6',
+375 silly addNameRange     '1.0.7',
+375 silly addNameRange     '1.0.8',
+375 silly addNameRange     '1.5.0',
+375 silly addNameRange     '1.5.1-pre',
+375 silly addNameRange     '1.5.1-pre.2',
+375 silly addNameRange     '1.5.1',
+375 silly addNameRange     '1.5.2',
+375 silly addNameRange     '1.6.0',
+375 silly addNameRange     '1.7.0',
+375 silly addNameRange     '1.8.0',
+375 silly addNameRange     '1.8.1',
+375 silly addNameRange     '1.8.2',
+375 silly addNameRange     '1.8.3',
+375 silly addNameRange     '1.8.4',
+375 silly addNameRange     '1.8.5',
+375 silly addNameRange     '1.8.6',
+375 silly addNameRange     '1.9.0',
+375 silly addNameRange     '1.9.1',
+375 silly addNameRange     '1.9.2',
+375 silly addNameRange     '1.9.3',
+375 silly addNameRange     '1.9.4',
+375 silly addNameRange     '1.9.5',
+375 silly addNameRange     '1.9.6',
+375 silly addNameRange     '1.9.7',
+375 silly addNameRange     '1.9.8',
+375 silly addNameRange     '1.9.9',
+375 silly addNameRange     '1.10.0',
+375 silly addNameRange     '1.10.1',
+375 silly addNameRange     '1.10.2',
+375 silly addNameRange     '1.10.3',
+375 silly addNameRange     '1.10.4',
+375 silly addNameRange     '1.10.5',
+375 silly addNameRange     '1.10.6',
+375 silly addNameRange     '1.10.7',
+375 silly addNameRange     '1.10.8',
+375 silly addNameRange     '1.11.0',
+375 silly addNameRange     '1.11.1',
+375 silly addNameRange     '1.12.0',
+375 silly addNameRange     '1.12.1',
+375 silly addNameRange     '1.12.2',
+375 silly addNameRange     '1.12.3',
+375 silly addNameRange     '1.12.4',
+375 silly addNameRange     '1.12.5' ] ]
+376 silly addNamed popper.js@1.12.5
+377 verbose addNamed "1.12.5" is a plain semver version for popper.js
+378 silly mapToRegistry name popper.js
+379 silly mapToRegistry using default registry
+380 silly mapToRegistry registry https://registry.npmjs.org/
+381 silly mapToRegistry uri https://registry.npmjs.org/popper.js
+382 verbose addRemoteTarball https://registry.npmjs.org/popper.js/-/popper.js-1.12.5.tgz not in flight; adding
+383 verbose addRemoteTarball [ 'https://registry.npmjs.org/popper.js/-/popper.js-1.12.5.tgz',
+383 verbose addRemoteTarball   '229e4dea01629e1f1a1e26991ffade5024220fa6' ]
+384 info retry fetch attempt 1 at 10:01:53 AM
+385 info attempt registry request try #1 at 10:01:53 AM
+386 http fetch GET https://registry.npmjs.org/popper.js/-/popper.js-1.12.5.tgz
+387 http fetch 200 https://registry.npmjs.org/popper.js/-/popper.js-1.12.5.tgz
+388 silly fetchAndShaCheck shasum 229e4dea01629e1f1a1e26991ffade5024220fa6
+389 verbose addTmpTarball /var/folders/b3/hmkw5gzj09b6rx4z00k4l78scf2kbh/T/npm-1887-d3f28e2b/registry.npmjs.org/popper.js/-/popper.js-1.12.5.tgz not in flight; adding
+390 verbose addTmpTarball already have metadata; skipping unpack for popper.js@1.12.5
+391 verbose correctMkdir /Users/karen.white/.npm correctMkdir not in flight; initializing
+392 silly cache afterAdd popper.js@1.12.5
+393 verbose afterAdd /Users/karen.white/.npm/popper.js/1.12.5/package/package.json not in flight; writing
+394 verbose correctMkdir /Users/karen.white/.npm correctMkdir not in flight; initializing
+395 verbose afterAdd /Users/karen.white/.npm/popper.js/1.12.5/package/package.json written
+396 silly install resolved [ { name: 'popper.js',
+396 silly install resolved     version: '1.12.5',
+396 silly install resolved     description: 'A kickass library to manage your poppers',
+396 silly install resolved     homepage: 'https://popper.js.org',
+396 silly install resolved     repository:
+396 silly install resolved      { type: 'git',
+396 silly install resolved        url: 'git+https://github.com/FezVrasta/popper.js.git' },
+396 silly install resolved     author: { name: 'Federico Zivolo', email: 'federico.zivolo@gmail.com' },
+396 silly install resolved     contributors: [ [Object] ],
+396 silly install resolved     license: 'MIT',
+396 silly install resolved     bugs: { url: 'https://github.com/FezVrasta/popper.js/issues' },
+396 silly install resolved     keywords:
+396 silly install resolved      [ 'popperjs',
+396 silly install resolved        'component',
+396 silly install resolved        'drop',
+396 silly install resolved        'tooltip',
+396 silly install resolved        'popover',
+396 silly install resolved        'position',
+396 silly install resolved        'attached' ],
+396 silly install resolved     main: 'dist/umd/popper.js',
+396 silly install resolved     module: 'dist/esm/popper.js',
+396 silly install resolved     types: 'index.d.ts',
+396 silly install resolved     scripts:
+396 silly install resolved      { prepare: 'npm run build',
+396 silly install resolved        postpublish: 'nuget-publish && ./bower-publish.sh',
+396 silly install resolved        prebuild: 'npm run lint',
+396 silly install resolved        pretest: 'npm run lint',
+396 silly install resolved        build: 'node bundle.js',
+396 silly install resolved        lint: 'eslint .',
+396 silly install resolved        test: 'popper-karma',
+396 silly install resolved        'test:dev': 'BROWSERS=Chrome NODE_ENV=development npm run test',
+396 silly install resolved        coverage: 'NODE_ENV=coverage npm run test' },
+396 silly install resolved     devDependencies:
+396 silly install resolved      { '@popperjs/bundle': '^1.0.2',
+396 silly install resolved        '@popperjs/eslint-config-popper': '^1.0.0',
+396 silly install resolved        'nuget-publish': '^1.0.3',
+396 silly install resolved        '@popperjs/test': '^1.0.0',
+396 silly install resolved        '@popperjs/test-utils': '^1.0.0',
+396 silly install resolved        eslint: '^4.1.1' },
+396 silly install resolved     resolutions: { micromatch: '^3.0.3' },
+396 silly install resolved     _id: 'popper.js@1.12.5',
+396 silly install resolved     _npmVersion: '5.3.0',
+396 silly install resolved     _nodeVersion: '8.1.2',
+396 silly install resolved     _npmUser: { name: 'fezvrasta', email: 'federico.zivolo@gmail.com' },
+396 silly install resolved     dist:
+396 silly install resolved      { integrity: 'sha512-6R2eXIy1xYukMNutoD+y/Gj0IpjEQhivyZonm5Vz0Fp8jdc7kvheKCvpM/t+PxqKb7VbLVnvPVEdTyslEb7f6w==',
+396 silly install resolved        shasum: '229e4dea01629e1f1a1e26991ffade5024220fa6',
+396 silly install resolved        tarball: 'https://registry.npmjs.org/popper.js/-/popper.js-1.12.5.tgz' },
+396 silly install resolved     maintainers: [ [Object] ],
+396 silly install resolved     _npmOperationalInternal:
+396 silly install resolved      { host: 's3://npm-registry-packages',
+396 silly install resolved        tmp: 'tmp/popper.js-1.12.5.tgz_1504016188639_0.5722488483879715' },
+396 silly install resolved     directories: {},
+396 silly install resolved     _shasum: '229e4dea01629e1f1a1e26991ffade5024220fa6',
+396 silly install resolved     _resolved: 'https://registry.npmjs.org/popper.js/-/popper.js-1.12.5.tgz',
+396 silly install resolved     _from: 'popper.js@>=1.11.0 <2.0.0' } ]
+397 info install popper.js@1.12.5 into /Users/karen.white/themes/cornerstone
+398 info installOne popper.js@1.12.5
+399 verbose installOne of popper.js to /Users/karen.white/themes/cornerstone not in flight; installing
+400 verbose correctMkdir /Users/karen.white/.npm/_locks correctMkdir not in flight; initializing
+401 verbose lock using /Users/karen.white/.npm/_locks/popper-js-c45121aff82b64ab.lock for /Users/karen.white/themes/cornerstone/node_modules/popper.js
+402 silly install write writing popper.js 1.12.5 to /Users/karen.white/themes/cornerstone/node_modules/popper.js
+403 verbose unbuild node_modules/popper.js
+404 silly gentlyRm /Users/karen.white/themes/cornerstone/node_modules/popper.js is being purged from base /Users/karen.white/themes/cornerstone
+405 verbose gentlyRm don't care about contents; nuking /Users/karen.white/themes/cornerstone/node_modules/popper.js
+406 verbose tar unpack /Users/karen.white/.npm/popper.js/1.12.5/package.tgz
+407 verbose tar unpacking to /Users/karen.white/themes/cornerstone/node_modules/popper.js
+408 silly gentlyRm /Users/karen.white/themes/cornerstone/node_modules/popper.js is being purged
+409 verbose gentlyRm don't care about contents; nuking /Users/karen.white/themes/cornerstone/node_modules/popper.js
+410 silly gunzTarPerm modes [ '755', '644' ]
+411 silly gunzTarPerm extractEntry package.json
+412 silly gunzTarPerm extractEntry dist/popper-utils.js
+413 silly gunzTarPerm extractEntry dist/popper-utils.min.js
+414 silly gunzTarPerm extractEntry dist/popper.js
+415 silly gunzTarPerm extractEntry dist/popper.min.js
+416 silly gunzTarPerm extractEntry dist/esm/popper-utils.js
+417 silly gunzTarPerm extractEntry dist/esm/popper-utils.min.js
+418 silly gunzTarPerm extractEntry dist/esm/popper.js
+419 silly gunzTarPerm extractEntry dist/esm/popper.min.js
+420 silly gunzTarPerm extractEntry dist/esm/popper-utils.js.map
+421 silly gunzTarPerm extractEntry dist/esm/popper-utils.min.js.map
+422 silly gunzTarPerm extractEntry dist/esm/popper.js.map
+423 silly gunzTarPerm extractEntry dist/esm/popper.min.js.map
+424 silly gunzTarPerm extractEntry dist/popper-utils.js.map
+425 silly gunzTarPerm extractEntry dist/popper-utils.min.js.map
+426 silly gunzTarPerm extractEntry dist/popper.js.map
+427 silly gunzTarPerm extractEntry dist/popper.min.js.map
+428 silly gunzTarPerm extractEntry dist/umd/popper-utils.js
+429 silly gunzTarPerm extractEntry dist/umd/popper-utils.min.js
+430 silly gunzTarPerm extractEntry dist/umd/popper.js
+431 silly gunzTarPerm extractEntry dist/umd/popper.min.js
+432 silly gunzTarPerm extractEntry dist/umd/popper-utils.js.map
+433 silly gunzTarPerm extractEntry dist/umd/popper-utils.min.js.map
+434 silly gunzTarPerm extractEntry dist/umd/popper.js.map
+435 silly gunzTarPerm extractEntry dist/umd/popper.min.js.map
+436 silly gunzTarPerm extractEntry index.d.ts
+437 verbose write writing to /Users/karen.white/themes/cornerstone/node_modules/popper.js/package.json
+438 info preinstall popper.js@1.12.5
+439 verbose readDependencies loading dependencies from /Users/karen.white/themes/cornerstone/node_modules/popper.js/package.json
+440 verbose readDependencies loading dependencies from /Users/karen.white/themes/cornerstone/node_modules/popper.js/package.json
+441 silly install resolved []
+442 verbose about to build /Users/karen.white/themes/cornerstone/node_modules/popper.js
+443 info build /Users/karen.white/themes/cornerstone/node_modules/popper.js
+444 info linkStuff popper.js@1.12.5
+445 silly linkStuff popper.js@1.12.5 has /Users/karen.white/themes/cornerstone/node_modules as its parent node_modules
+446 verbose linkBins popper.js@1.12.5
+447 verbose linkMans popper.js@1.12.5
+448 verbose rebuildBundles popper.js@1.12.5
+449 info install popper.js@1.12.5
+450 info postinstall popper.js@1.12.5
+451 verbose unlock done using /Users/karen.white/.npm/_locks/popper-js-c45121aff82b64ab.lock for /Users/karen.white/themes/cornerstone/node_modules/popper.js
+452 verbose unlock done using /Users/karen.white/.npm/_locks/bootstrap-892093a5e5c32421.lock for /Users/karen.white/themes/cornerstone/node_modules/bootstrap
+453 verbose validateInstall loading /Users/karen.white/themes/cornerstone/package.json for validation
+454 verbose stack Error: The package jquery@2.2.4 does not satisfy its siblings' peerDependencies requirements!
+454 verbose stack     at /Users/karen.white/.nvm/versions/node/v4.4.0/lib/node_modules/npm/lib/install.js:125:32
+454 verbose stack     at /Users/karen.white/.nvm/versions/node/v4.4.0/lib/node_modules/npm/lib/install.js:268:7
+454 verbose stack     at /Users/karen.white/.nvm/versions/node/v4.4.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+454 verbose stack     at /Users/karen.white/.nvm/versions/node/v4.4.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+454 verbose stack     at cb (/Users/karen.white/.nvm/versions/node/v4.4.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+454 verbose stack     at /Users/karen.white/.nvm/versions/node/v4.4.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+454 verbose stack     at cb (/Users/karen.white/.nvm/versions/node/v4.4.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+454 verbose stack     at /Users/karen.white/.nvm/versions/node/v4.4.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+454 verbose stack     at cb (/Users/karen.white/.nvm/versions/node/v4.4.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+454 verbose stack     at /Users/karen.white/.nvm/versions/node/v4.4.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+455 verbose cwd /Users/karen.white/themes/cornerstone
+456 error Darwin 16.7.0
+457 error argv "/Users/karen.white/.nvm/versions/node/v4.4.0/bin/node" "/Users/karen.white/.nvm/versions/node/v4.4.0/bin/npm" "install" "bootstrap@4.0.0-beta"
+458 error node v4.4.0
+459 error npm  v2.14.20
+460 error code EPEERINVALID
+461 error peerinvalid The package jquery@2.2.4 does not satisfy its siblings' peerDependencies requirements!
+462 verbose exit [ 1, true ]

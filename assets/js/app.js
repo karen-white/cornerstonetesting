@@ -3,10 +3,34 @@ __webpack_public_path__ = window.__webpack_public_path__; // eslint-disable-line
 import 'babel-polyfill';
 import $ from 'jquery';
 import Global from './theme/global';
+import custom from './theme/custom';
 
 const getAccount = () => import('./theme/account');
 const getLogin = () => import('./theme/auth');
 const pageClasses = {
+
+  mapping: {
+.
+.
+.
+'pages/custom/product/custom-product': custom,
+.
+.
+.
+},
+    /**
+     * Getter method to ensure a good page type is accessed.
+     * @param page
+     * @returns {*}
+     */
+    get(pageKey) {
+        if (this.mapping[pageKey]) {
+            return this.mapping[pageKey];
+        }
+
+        return false;
+    },
+
     account_orderstatus: getAccount,
     account_order: getAccount,
     account_addressbook: getAccount,
@@ -47,6 +71,8 @@ const pageClasses = {
     newsletter_subscribe: () => import('./theme/subscribe'),
     wishlist: () => import('./theme/wishlist'),
     wishlists: () => import('./theme/wishlist'),
+
+
 };
 
 /**

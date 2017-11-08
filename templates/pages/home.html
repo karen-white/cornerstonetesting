@@ -29,6 +29,8 @@ blog:
         {{> components/products/featured products=products.featured columns=theme_settings.homepage_featured_products_column_count}}
     {{/if}}
 
+    {{add 2 3}}
+
     {{#if products.top_sellers}}
         {{> components/products/top products=products.top_sellers columns=theme_settings.homepage_top_products_column_count}}
     {{/if}}
@@ -36,6 +38,9 @@ blog:
     {{#if products.new}}
         {{> components/products/new products=products.new columns=theme_settings.homepage_new_products_column_count}}
     {{/if}}
+
+
+
 </div>
 {{/partial}}
 {{> layout/base}}
